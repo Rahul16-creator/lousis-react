@@ -65,12 +65,17 @@ class Slider extends React.Component {
                     <div className={`mySlides ${this.state.index === 5 ? "fade" : ""}`}>
                         <img width="100%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-5829.jpg" alt="" />
                     </div>
-                    {/* <a className="left_arrow" onClick={this.DecSlide} >
+
+
+                    {/* arrows */}
+                    <a className="left_arrow" onClick={this.DecSlide} >
                         &#10094;
                 </a>
                     <a className="right_arrow" onClick={this.IncSlide} >
-                        &#10095; */}
-                {/* </a> */}
+                        &#10095;
+                </a>
+
+                
                     <div className="text">
                         <span className={`dot ${this.state.index === 1 ? "active" : ""}`} onClick={this.current()}></span>
                         <span className={`dot ${this.state.index === 2 ? "active" : ""}`} onClick={this.current()}></span>

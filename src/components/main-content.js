@@ -75,27 +75,33 @@ export default function Maincontent() {
 
             <div className="content-img-5">
                 <div className="zoom-In">
-                    <div>
+                    <div> <figure>
                         <img width="250px" height="auto"
                             src="https://louisphilippe.imgix.net/img/app/brands/lp/LP_D_content1.jpg" alt="" />
-                    </div>
-                    <div className="text">
-                        <h3>Formal dressing rules you're probably ignoring</h3><br />
-                        <p>A true gentleman is always presentable, (not to mention desirable). Here’s how you can look the
+                    </figure></div>
+                    <div>
+                        <div className="text">
+                            <h3>Formal dressing rules you're probably ignoring</h3><br />
+                            <p>A true gentleman is always presentable, (not to mention desirable). Here’s how you can look the
                         part by mastering ...</p><br />
-                        <a>READ MORE</a>
+                            <a>READ MORE</a>
+                        </div>
                     </div>
                 </div>
                 <div className="zoom-In">
                     <div>
-                        <img width="auto" height="250px" src="https://louisphilippe.imgix.net/img/app/brands/lp/LP_D_blog2.jpg"
-                            alt="" />
+                        <figure>
+                            <img width="auto" height="250px" src="https://louisphilippe.imgix.net/img/app/brands/lp/LP_D_blog2.jpg"
+                                alt="" />
+                        </figure>
                     </div>
-                    <div className="text">
-                        <h3>Formal dressing rules you're probably ignoring</h3><br />
-                        <p>A true gentleman is always presentable, (not to mention desirable). Here’s how you can look the
+                    <div>
+                        <div className="text">
+                            <h3>Formal dressing rules you're probably ignoring</h3><br />
+                            <p>A true gentleman is always presentable, (not to mention desirable). Here’s how you can look the
                         part by mastering ...</p><br />
-                        <a>READ MORE</a>
+                            <a>READ MORE</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,8 +116,11 @@ export default function Maincontent() {
                         <a>READ MORE</a>
                     </div>
                     <div className="figure">
-                        <img width="250px" height="auto"
-                            src="https://louisphilippe.imgix.net/img/app/brands/lp/LP_D_content3.jpg" alt="" />
+                        <figure>
+                            <img width="250px" height="auto"
+                                src="https://louisphilippe.imgix.net/img/app/brands/lp/LP_D_content3.jpg" alt="" />
+                        </figure>
+
                     </div>
                 </div>
                 <div className="zoom-In">
@@ -122,8 +131,13 @@ export default function Maincontent() {
                         <a>READ MORE</a>
                     </div>
                     <div>
-                        <img width="auto" height="250px"
-                            src="https://louisphilippe.imgix.net/img/app/brands/lp/LP_D_content4.jpg" alt="" />
+
+                        <figure>
+                            <img width="auto" height="250px"
+                                src="https://louisphilippe.imgix.net/img/app/brands/lp/LP_D_content4.jpg" alt="" />
+                        </figure>
+
+
                     </div>
                 </div>
 
