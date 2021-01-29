@@ -47,23 +47,23 @@ class Slider extends React.Component {
             <div>
                 <div className="slideshow-container">
                     <div className={`mySlides ${this.state.index === 1 ? "fade" : ""}`}>
-                        <img  width="99%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-5704.jpg" alt="" />
+                        <img  width="100%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-5704.jpg" alt="" />
                     </div>
 
                     <div className={`mySlides ${this.state.index === 2 ? "fade" : ""}`}>
-                        <img  width="99%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-6047.gif" alt="" />
+                        <img  width="100%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-6047.gif" alt="" />
                     </div>
 
                     <div className={`mySlides ${this.state.index === 3 ? "fade" : ""}`}>
-                        <img  width="99%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-6104.jpg" alt="" />
+                        <img  width="100%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-6104.jpg" alt="" />
                     </div>
 
                     <div className={`mySlides ${this.state.index === 4 ? "fade" : ""}`}>
-                        <img width="99%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-5931.jpg" alt="" />
+                        <img width="100%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-5931.jpg" alt="" />
                     </div>
 
                     <div className={`mySlides ${this.state.index === 5 ? "fade" : ""}`}>
-                        <img width="99%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-5829.jpg" alt="" />
+                        <img width="100%" src="https://louisphilippe.imgix.net/img/app/shopmedia/production/3/3-10-5829.jpg" alt="" />
                     </div>
                     {/* <a className="left_arrow" onClick={this.DecSlide} >
                         &#10094;
