@@ -1,0 +1,10 @@
+.img .back {
+    width: 329px;
+    height: 219px;
+    overflow: hidden;
+}
+.video {
+    position: absolute;
+    left: 50;
+
+}
