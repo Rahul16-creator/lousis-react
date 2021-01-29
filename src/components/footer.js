@@ -106,6 +106,7 @@ export default function Footer() {
                     detail and Swiss aesthetics, the sophisticated watches delve on excellence.</p>
                 </div>
             </div>
+            {/* Bottom - image */}
 
             <div className="footer-img">
                 <img width="150px" height="170px" src="https://louisphilippe.imgix.net/img/app/others/birlalogo.jpg" alt="" />

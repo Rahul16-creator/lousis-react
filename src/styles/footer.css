@@ -42,12 +42,13 @@
 }
 
 
+/* font-awesome */
+
 
 .social-media {
     float: right;
 }
 
-/* font-awesome */
 .social-media i {
     cursor: pointer;
     padding: 0 10px 0 0;
@@ -55,6 +56,8 @@
     opacity: 0.5; 
     color: rgba(0, 0, 0, 0.75);
 }
+
+
 .social-media i:hover {
     opacity:1; 
 }

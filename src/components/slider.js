@@ -10,9 +10,6 @@ const breakPoints = [
     { width: 1200, itemsToShow: 4 },
 ];
 
-// const settings =  {
-//     autoplay: true
-//   };
 
 export default function ItemSlider() {
     return (

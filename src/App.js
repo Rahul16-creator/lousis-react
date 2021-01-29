@@ -17,12 +17,11 @@ const App = () => {
 
       </div>
 
+      {/*   Bottom - page     */}
       <div className="end"></div>
       <div className="copy-right">
         © 2018 Madura Fashion & Lifestyle A Division of Aditya Birla Fashion & Retail Limited. All rights reserved.
              </div>
-
-
     </div>
 
   )

@@ -7,14 +7,18 @@ import ItemSlider from './slider';
 export default function Maincontent() {
     return (
         <div>
+            {/* content-1 */}
             <div className="content-img-1">
                 <img width="99%" src="https://louisphilippe.imgix.net/img/app/brands/lp/LP_D_P1_Flat40_1501.jpg?auto=format"
                     alt="img-1" />
             </div>
 
-            <Slider/>
+            {/* slider -1 */}
+            <Slider />
+
             <div className="straight-line"></div>
 
+            {/* content-2 */}
             <div className="content-img-2">
                 <div id="zoom-In">
                     <figure>
@@ -23,6 +27,7 @@ export default function Maincontent() {
                     </figure>
                 </div>
             </div>
+            {/* content-3 */}
 
             <div className="content-img-3">
                 <div id="zoom-In">
@@ -39,6 +44,7 @@ export default function Maincontent() {
                 </div>
             </div>
 
+            {/* content-4 */}
             <div className="content-img-4">
                 <div id="zoom-In">
                     <figure>
@@ -49,22 +55,23 @@ export default function Maincontent() {
                 </div>
             </div>
 
-
+            {/* straight-line */}
             <div className="line-text">
                 <span><b>BRAND VIDEOS</b></span>
                 <div className="lines"></div>
             </div>
             <br />
 
+            {/* slider-2 */}
             <ItemSlider></ItemSlider>
 
-
+            {/* straight-line */}
             <div className="line-text">
                 <span>THE <b>LABEL</b></span>
                 <div className="line"></div>
             </div>
             <br />
-
+            {/* flex content */}
 
             <div className="content-img-5">
                 <div className="zoom-In">
