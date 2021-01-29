@@ -2,11 +2,11 @@
 /* NAVIGATIONS */
 
 .nav{
-   /* position: fixed; */
-  /* width: 75%; */
-  /* background-color: #fff;  */
-  /* z-index: 1; */
-  /* margin: 0%;  */
+  position: fixed;
+  top: 0;
+  z-index: 1; 
+  background: #fff;
+  width: 75%;
 }
 
 .navigation {
@@ -56,6 +56,7 @@
   /* ------------------------------ */
   
   .content-bottom{
+      margin: 0 0 10px 0;
       border-bottom: 1px solid #333;
       padding: 10px 0;
   }
@@ -91,8 +92,8 @@
       display: flex;
       position: absolute;
       top: 120px;
-      left: 12.5%;
-      width: 75.1%;
+      left: 0%;
+      width: 100%;
       height: auto;
       padding: 10px;
       animation-name: fade;
